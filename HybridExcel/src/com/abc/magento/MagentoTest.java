@@ -41,7 +41,7 @@ public class MagentoTest {
 			switch (action) 
 			{
 			case "open":
-				driver = new FirefoxDriver();
+				driver = new ChromeDriver();
 				break;
 
 			case "navigate":
